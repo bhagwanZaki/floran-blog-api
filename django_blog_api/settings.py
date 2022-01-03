@@ -27,8 +27,8 @@ SECRET_KEY = os.environ.get('FLORAN_DJANGO_API')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['floran-blog-api.herokuapp.com']
-
+ALLOWED_HOSTS = ['127.0.0.1','floran-blog-api.herokuapp.com']
+CORS_ORIGIN_ALLOW_ALL=True
 
 # Application definition
 
